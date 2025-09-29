@@ -4,10 +4,49 @@
 }
 
 header {
-    background-color:rgb(128, 213, 108);
+    background-color:#D9CFC5;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    position: relative;
+
 }
+
 
 .titulo {
     text-align: center;
+}
+
+.navbar {
+    background-color: #2a2a3e;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img  {
+    widht: auto;
+    height: 45px;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+}
+
+.nav-actions img {
+    height: 40 px;
+    width: auto;
+}
+
+.hero {
+    height : 25px;
 }
