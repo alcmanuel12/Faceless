@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
 .cards-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 100px;
     background-color: #A73F2D;
     flex-wrap: wrap; 
     gap: 30px; 
@@ -13,9 +20,20 @@
     height: 361px;
     position: relative;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out; 
+    overflow: visible;
+    perspective: 1000px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s ease-in-out;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
 }
 
 
@@ -28,8 +46,7 @@
     left: 0;
     border-radius: 15px;
     overflow: hidden;
-    -webkit-backface-visibility: hidden; 
-    backface-visibility: hidden; 
+    backface-visibility: hidden;
 }
 
 .card-front img {
@@ -39,11 +56,12 @@
 }
 
 .card-back {
+    transform: rotateY(180deg);
     text-align: center;
     box-sizing: border-box; 
     padding: 45px 20px; 
     background-color: #271E2D;
-    color: white;
+    color: #DE9C52;
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
@@ -51,36 +69,45 @@
 
 .crossed {
     font-weight: normal;
-    font-size: 1.1em;
-    color: #CCCCCC;
+    font-size: 18px;
     text-decoration: line-through;
+    text-decoration-color: #DE9C52;
+    text-decoration-thickness: 3px;
     margin-bottom: 5px;
+    color: #D9CFC5;
 }
 
 .name {
-    font-size: 1.8em;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
     line-height: 1.2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .text {
-    font-size: 0.9em;
+    font-size: 12px;
     line-height: 1.5;
+    color: #D9CFC5;
 }
 
-.more {
-    border-radius: 10px;
-    background-color: #A73F2D;
-    color: white;
+.button {
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #DE9C52;
+    color: #271E2D;
     padding: 8px 15px;
     border: none;
     cursor: pointer;
     font-weight: bold;
     margin-top: auto; 
     transition: background-color 0.2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
 }
 
-.more:hover {
-    background-color: #8C3424;
+.button:hover {
+    background-color: #D9CFC5;
 }
