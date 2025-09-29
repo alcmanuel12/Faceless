@@ -1,8 +1,86 @@
-header {
-    background-color:rgb(128, 213, 108);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #A73F2D;
+    flex-wrap: wrap; 
+    gap: 30px; 
 }
 
-.titulo {
+.card {
+    width: 266px; 
+    height: 361px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden; 
+}
+
+.card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-back {
     text-align: center;
+    box-sizing: border-box; 
+    padding: 45px 20px; 
+    background-color: #271E2D;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.crossed {
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #CCCCCC;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.text {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.more {
+    border-radius: 10px;
+    background-color: #A73F2D;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: auto; 
+    transition: background-color 0.2s;
+}
+
+.more:hover {
+    background-color: #8C3424;
 }
