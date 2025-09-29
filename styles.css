@@ -33,7 +33,7 @@ header {
 }
 
 .logo img  {
-    widht: auto;
+    width: auto;
     height: 45px;
 }
 
@@ -49,4 +49,5 @@ header {
 
 .hero {
     height : 25px;
+    width : 100%;
 }
