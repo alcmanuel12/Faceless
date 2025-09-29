@@ -1,4 +1,8 @@
 # 🌐 Faceless
+<<<<<<< HEAD
+=======
+## Footer
+>>>>>>> origin/footer
 
 Este proyecto es una **landing page minimalista** desarrollada con **HTML y CSS**, que muestra **4 tarjetas interactivas** con efecto *flip* (giro en 3D).  
 
