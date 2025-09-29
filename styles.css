@@ -51,3 +51,17 @@ header {
     height : 25px;
     width : 100%;
 }
+
+.hero-image {
+    width: 100%;
+    display: block;
+
+}
+
+.hero h2 {
+    
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 50%;
+}
