@@ -8,6 +8,7 @@ header {
     font-family:Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     position: relative;
+    height: 300px;
 
 }
 
@@ -38,8 +39,13 @@ header {
 }
 
 .nav-actions {
+    color: #DA9E58;
     display: flex;
     align-items: center;
+    gap: 15px;
+}
+.nav-actions i:hover {
+    color: white;
 }
 
 .nav-actions img {
@@ -58,10 +64,14 @@ header {
 
 }
 
-.hero h2 {
+.hero-text {
     
     position: absolute;
-    color: black;
-    top: 0;
+    color: #D9CFC5;
+    top: 50%;
     left: 50%;
+    z-index: 0;
+    font-size: 400%;
+    text-align: center;
+
 }
