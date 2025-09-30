@@ -74,7 +74,20 @@ header {
 }
 /*CSS INTRO*/
 
-<<<<<<< HEAD
+.intro-container {
+    background-color: rgb(217, 207, 197);
+    width: 100%;
+    height: 500px;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-title {
+    color: rgb(59, 55, 72);
+}
+
 
 
 
@@ -182,7 +195,7 @@ header {
     border: none;
     cursor: pointer;
     font-weight: bold;
-    margin-top: auto; 
+    margin-top: auto;
     transition: background-color 0.2s;
     display: flex;
     flex-direction: row;
