@@ -4,10 +4,10 @@
 ## Footer
 >>>>>>> origin/footer
 
-Este proyecto es una **landing page minimalista** desarrollada con **HTML y CSS**, que muestra **4 tarjetas interactivas** con efecto *flip* (giro en 3D).  
+This project is a **minimalist landing page** developed with **HTML and CSS**, showcasing **4 interactive cards** with a *flip* (3D rotation) effect.  
 
-## 🚀 Características  
-- ✅ Diseño responsivo y ligero  
-- ✅ 4 tarjetas con efecto **flip** al pasar el ratón  
-- ✅ Hecho solo con **HTML y CSS** (sin frameworks)  
-- ✅ Código limpio y fácil de modificar  
+## 🚀 Features  
+- ✅ Responsive and lightweight design  
+- ✅ 4 cards with **flip** effect on hover  
+- ✅ Built only with **HTML and CSS** (no frameworks)  
+- ✅ Clean and easy-to-modify code  
