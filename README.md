@@ -1,6 +1,2 @@
 # Faceless
 
-d
-
-
-
