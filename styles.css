@@ -1,21 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 * {
     margin: 0;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
-
-.hero {
-    height: 25px;
-    width: 100%;
-}
-
-.hero-image {
-    width: 100%;
-    display: block;
-}
-
 
 .search-container {
     position: relative;
@@ -35,11 +23,6 @@
     box-shadow: 0 0 0 3px rgba(39, 39, 39, 0.3);
 }
 
-.search-button:hover {
-    background: #DA9E58;
-    color: white;
-}
-
 .search-button {
     position: absolute;
     right: 1px;
@@ -57,6 +40,11 @@
     transition: background 0.3s ease;
 }
 
+.search-button:hover {
+    background: #DA9E58;
+    color: white;
+}
+
 .parallax {
     background-image: url('https://res.cloudinary.com/dsy30p7gf/image/upload/v1759258919/header_fuuy9a.png');
     height: 300px;
@@ -71,22 +59,11 @@
 .content {
     color: #D9CFC5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 600%;
+    font-size: 72px;
     text-decoration: line-through;
     text-decoration-color: #DE9C52;
     text-decoration-thickness: 15px;
     user-select: none;
-}
-
-.hero-text {
-    position: absolute;
-    color: #D9CFC5;
-    top: 50%;
-    left: 50%;
-    z-index: 0;
-    font-size: 400%;
-    text-align: center;
-
 }
 
 header {
@@ -105,14 +82,12 @@ header {
     align-items: center;
     position: relative;
     z-index: 10;
-
 }
 
 .logo {
     display: flex;
     align-items: center;
 }
-
 
 .logo img {
     width: auto;
@@ -128,12 +103,6 @@ header {
 
 .nav-actions i:hover {
     color: white;
-}
-
-.nav-actions img {
-
-    height: 40px;
-    width: auto;
 }
 
 .intro-container {
@@ -159,10 +128,15 @@ header {
     color: rgb(59, 55, 72);
 }
 
-
 .intro-name {
     color: rgb(167,63,45);
     padding-bottom: 8px;
+}
+
+.intro-conten {
+    color: rgb(59, 55, 72);
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 .cards-container {
@@ -171,8 +145,8 @@ header {
     align-items: center;
     padding: 100px;
     background-image: url(https://res.cloudinary.com/dsy30p7gf/image/upload/v1759257707/BACKGROUND_poaelm.png);
-    flex-wrap: wrap; 
-    gap: 30px; 
+    flex-wrap: wrap;
+    gap: 30px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -299,9 +273,35 @@ header {
 
 .footer-section {
     flex: 1;
-
 }
 
+.footer-section h4 {
+    color: rgb(222, 156, 82);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-section p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.site-footer {
+    background-color: rgb(39, 30, 45);
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
 .footer-section h4 {
     color: rgb(222, 156, 82);
     margin-bottom: 10px;
