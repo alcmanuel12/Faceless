@@ -59,7 +59,7 @@
 .content {
     color: #D9CFC5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 72px;
+    font-size: 600%;
     text-decoration: line-through;
     text-decoration-color: #DE9C52;
     text-decoration-thickness: 15px;
