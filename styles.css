@@ -1,19 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
 }
 
 /*CSS HEADER*/
+.hero {
+    height : 25px;
+    width : 100%;
+}
 
+.hero-image {
+    width: 100%;
+    display: block;
+
+}
+
+.hero-text {
+    
+    position: absolute;
+    color: #D9CFC5;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    font-size: 400%;
+    text-align: center;
+
+}
 header {
     background-color:#D9CFC5;
     font-family:Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     position: relative;
+    height: 300px;
 
 }
-.hero {
-    height : 25px;
-}
+
 
 .navbar {
     background-color: #2a2a3e;
@@ -37,8 +59,13 @@ header {
 }
 
 .nav-actions {
+    color: #DA9E58;
     display: flex;
     align-items: center;
+    gap: 15px;
+}
+.nav-actions i:hover {
+    color: white;
 }
 
 .nav-actions img {
@@ -47,12 +74,13 @@ header {
 }
 /*CSS INTRO*/
 
+<<<<<<< HEAD
 
 
 
 
 /*CSS CARDS*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
