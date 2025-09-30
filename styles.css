@@ -1,3 +1,53 @@
+* {
+    margin: 0;
+}
+
+/*CSS HEADER*/
+
+header {
+    background-color:#D9CFC5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    position: relative;
+
+}
+.hero {
+    height : 25px;
+}
+
+.navbar {
+    background-color: #2a2a3e;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img  {
+    width: auto;
+    height: 45px;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+}
+
+.nav-actions img {
+    height: 40 px;
+    width: auto;
+}
+
+
+/*CSS CARDS*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -47,17 +97,6 @@
     border-radius: 15px;
     overflow: hidden;
     backface-visibility: hidden;
-
-* {
-    margin: 0;
-}
-
-header {
-    background-color:#D9CFC5;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
-    position: relative;
-
 }
 
 .card-front img {
@@ -68,13 +107,6 @@ header {
 
 .card-back {
     transform: rotateY(180deg);
-.hero {
-    height : 25px;
-}
-
-
-.logo-footer {
-    flex: 1;
     text-align: center;
     box-sizing: border-box; 
     padding: 45px 20px; 
@@ -130,6 +162,20 @@ header {
     background-color: #D9CFC5;
 }
 
+
+/*CSS FOOTER*/
+.logo-footer {
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box; 
+    padding: 45px 20px; 
+    background-color: #271E2D;
+    color: #DE9C52;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
 .logo-footer img {
     width: 80px;
     margin-bottom: 10px;
@@ -142,7 +188,7 @@ header {
 }
 
 .footer-section {
-    flex: 1; 
+    flex: 1;
 }
 
 .footer-section h4 {
@@ -157,36 +203,7 @@ header {
 }
 
 
-.navbar {
-    background-color: #2a2a3e;
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    z-index: 10;
 
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img  {
-    width: auto;
-    height: 45px;
-}
-
-.nav-actions {
-    display: flex;
-    align-items: center;
-}
-
-.nav-actions img {
-    height: 40 px;
-    width: auto;
-}
 
 .site-footer {
     background-color: rgb(39, 30, 45);
