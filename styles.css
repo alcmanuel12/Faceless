@@ -18,6 +18,47 @@
     display: block;
 }
 
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    padding: 12px 50px 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    outline: none;
+    background: #D9CFC5;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 0 3px rgba(39, 39, 39, 0.3);
+}
+
+.search-button:hover {
+    background: #DA9E58;
+    color: white;
+}
+
+.search-button {
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #DA9E58;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+}
+
 .parallax {
     background-image: url('https://res.cloudinary.com/dsy30p7gf/image/upload/v1759222578/FACELESS_wuyfs2.png');
     height: 250px;
