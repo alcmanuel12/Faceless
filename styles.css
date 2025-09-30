@@ -45,6 +45,10 @@ header {
     height: 40 px;
     width: auto;
 }
+/*CSS INTRO*/
+
+
+
 
 
 /*CSS CARDS*/
@@ -66,7 +70,7 @@ header {
 }
 
 .card {
-    width: 266px; 
+    width: 266px;
     height: 361px;
     position: relative;
     border-radius: 15px;
