@@ -1,22 +1,9 @@
-/* Importación de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 * {
     margin: 0;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
-
-.hero {
-    height: 25px;
-    width: 100%;
-}
-
-.hero-image {
-    width: 100%;
-    display: block;
-}
-
 
 .search-container {
     position: relative;
@@ -36,11 +23,6 @@
     box-shadow: 0 0 0 3px rgba(39, 39, 39, 0.3);
 }
 
-.search-button:hover {
-    background: #DA9E58;
-    color: white;
-}
-
 .search-button {
     position: absolute;
     right: 1px;
@@ -58,10 +40,14 @@
     transition: background 0.3s ease;
 }
 
+.search-button:hover {
+    background: #DA9E58;
+    color: white;
+}
+
 .parallax {
-    background-image: url('https://res.cloudinary.com/dsy30p7gf/image/upload/v1759222578/FACELESS_wuyfs2.png');
-    height: 250px;
-    background-attachment: fixed;
+    background-image: url('https://res.cloudinary.com/dsy30p7gf/image/upload/v1759258919/header_fuuy9a.png');
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,18 +59,11 @@
 .content {
     color: #D9CFC5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 400%;
-}
-
-.hero-text {
-    position: absolute;
-    color: #D9CFC5;
-    top: 50%;
-    left: 50%;
-    z-index: 0;
-    font-size: 400%;
-    text-align: center;
-
+    font-size: 600%;
+    text-decoration: line-through;
+    text-decoration-color: #DE9C52;
+    text-decoration-thickness: 15px;
+    user-select: none;
 }
 
 header {
@@ -92,7 +71,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     position: relative;
-    height: 300px;
+    height: auto;
 }
 
 .navbar {
@@ -103,14 +82,12 @@ header {
     align-items: center;
     position: relative;
     z-index: 10;
-
 }
 
 .logo {
     display: flex;
     align-items: center;
 }
-
 
 .logo img {
     width: auto;
@@ -128,58 +105,53 @@ header {
     color: white;
 }
 
-.nav-actions img {
-
-    height: 40 px;
-    width: auto;
-}
-/*CSS INTRO*/
-
-
 .intro-container {
     background-color: rgb(217, 207, 197);
     width: 100%;
-    height: 500px;
+    max-width: 100%;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .intro-text {
     text-align: center;
-
     max-width: 800px;
+    word-wrap: break-word;
+    font-size: 150%;
 }
 
 .intro-title {
     color: rgb(59, 55, 72);
 }
 
-
 .intro-name {
     color: rgb(167,63,45);
     padding-bottom: 8px;
 }
 
-
-
-
-/*CSS CARDS*/
+.intro-conten {
+    color: rgb(59, 55, 72);
+    font-size: 14px;
+    margin-top: 10px;
+}
 
 .cards-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 100px;
-    background-color: #A73F2D;
-
-    flex-wrap: wrap; 
-    gap: 30px; 
-
+    background-image: url(https://res.cloudinary.com/dsy30p7gf/image/upload/v1759257707/BACKGROUND_poaelm.png);
     flex-wrap: wrap;
     gap: 30px;
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card {
@@ -224,12 +196,6 @@ header {
 .card-back {
     transform: rotateY(180deg);
     text-align: center;
-    box-sizing: border-box; 
-    padding: 45px 20px; 
-    background-color: #271E2D;
-    color: #DE9C52;
-    display: flex;
-    flex-direction: column; 
     box-sizing: border-box;
     padding: 45px 20px;
     background-color: #271E2D;
@@ -251,8 +217,6 @@ header {
 
 .name {
     font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 10px;
     margin: 0 0 10px;
     line-height: 1.2;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -285,12 +249,9 @@ header {
     background-color: #D9CFC5;
 }
 
-
-/*CSS FOOTER*/
-
 .logo-footer {
     flex: 1;
-    text-align: center;
+    align-items: center;
     box-sizing: border-box;
     padding: 45px 20px;
     background-color: #271E2D;
@@ -326,7 +287,32 @@ header {
     line-height: 1.6;
 }
 
+.site-footer {
+    background-color: rgb(39, 30, 45);
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+.footer-section h4 {
+    color: rgb(222, 156, 82);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-section p {
+    margin: 0;
+    line-height: 1.6;
+}
 
 .site-footer {
     background-color: rgb(39, 30, 45);
@@ -336,12 +322,16 @@ header {
     font-size: 14px;
 }
 
-
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #D9CFC5;
 }
