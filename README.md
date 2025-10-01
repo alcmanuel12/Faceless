@@ -17,7 +17,7 @@ Faceless aims to:
 
 - Connections between their hidden and real identities.
 
-🚀 Features
+⭐ Features
 
     ✅ Responsive and lightweight design
     ✅ 4 cards with flip effect on hover
