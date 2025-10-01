@@ -50,4 +50,4 @@ Push to the branch and open a Pull Request
 
 🔍 Site preview
 
-![site preview](https://picsum.photos/800/600(https://res.cloudinary.com/dfc5psy3z/image/upload/v1759303866/screencapture-faceless-orcin-vercel-app-2025-10-01-09_22_02_yyk9mj.png))
+![site preview](https://res.cloudinary.com/dfc5psy3z/image/upload/v1759303866/screencapture-faceless-orcin-vercel-app-2025-10-01-09_22_02_yyk9mj.png)
