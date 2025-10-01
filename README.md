@@ -47,3 +47,7 @@ Create a new branch (git checkout -b feature/new-author)
 Commit your changes
 
 Push to the branch and open a Pull Request
+
+🔍 Site preview
+
+![Descripción de la imagen]([https://picsum.photos/800/600](https://res.cloudinary.com/dfc5psy3z/image/upload/v1759303866/screencapture-faceless-orcin-vercel-app-2025-10-01-09_22_02_yyk9mj.png))
